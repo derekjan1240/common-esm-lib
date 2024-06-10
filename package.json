@@ -1,0 +1,24 @@
+{
+  "name": "common-esm-lib",
+  "version": "1.0.0",
+  "main": "dist/my-library.cjs.js",
+  "module": "dist/my-library.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kai",
+  "license": "ISC",
+  "description": "The sample library for commonjs and esm",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "path": "^0.12.7",
+    "vite": "^5.2.11",
+    "vite-plugin-commonjs": "^0.10.1",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
